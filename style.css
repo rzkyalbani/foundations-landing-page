@@ -53,8 +53,8 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.header, .main, .footer {
-    padding: 24px 128px;
+.header, .hero, .footer {
+    padding: 24px 168px;
 }
 
 .header {
@@ -78,4 +78,50 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding-top: 86px;
+    padding-bottom: 86px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.description > h1,
+.description > p,
+.description > button {
+    margin-bottom: 12px;
+    color: #f9faf8;
+}
+
+.description .title {
+    font-size: 48px;
+    font-weight: 900;
+    flex: 0 0 40%;
+}
+
+.description p {
+    opacity: 0.9;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.description button {
+    background-color: #3882f6;
+    border: none;
+    padding: 8px 28px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.hero .h-image {
+    background-image: url(img/hero-moon.jpg);
+    background-size: cover;
+    background-position-y: -50px;
+    flex: 0 0 60%;
+    height: 300px;
 }
