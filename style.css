@@ -128,7 +128,7 @@ body {
 
 .testimonial {
     background-color: #f9faf8;
-    padding-bottom: 96px;
+    padding-bottom: 180px;
 }
 
 .testimonial h1 {
@@ -164,4 +164,16 @@ body {
     margin-top: 8px;
     font-size: 18px;
     opacity: .8;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
 }
