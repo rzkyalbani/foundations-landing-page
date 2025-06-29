@@ -53,7 +53,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-.header, .hero, .testimonial, .footer {
+.header, .hero, .testimonial, .call-to-action, .footer {
     padding: 24px 168px;
 }
 
@@ -116,6 +116,7 @@ body {
     font-weight: bold;
     font-size: 18px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .hero .h-image {
@@ -184,6 +185,59 @@ body {
     margin-top: 16px;
     font-size: 24px;
     font-weight: bold;
+}
+
+.call-to-action {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faf8;
+}
+
+.call-to-action .card {
+    background-color: #3882f6;
+    padding: 52px 120px;
+    display: flex;
+    flex: 0 0 70%;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.card .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card .description h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.card .description p {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.card .cta-button {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-button button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-weight: bolder;
+    font-size: 18px;
+    padding: 6px 24px;
+    border-radius: 12px;
+    cursor: pointer;
 }
 
 .footer {
